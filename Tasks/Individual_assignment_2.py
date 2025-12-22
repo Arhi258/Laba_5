@@ -63,7 +63,7 @@ if __name__ == '__main__':
 
         # Вывод рейсов с данным типом самолета
         elif command == 'check_flight':
-            key_aircraft = input("Введите тип самолета: ")
+            key_aircraft = input("Введите тип самолета: ").lower()
             count = 0
 
             # Проверка, есть ли такой тип самолета
